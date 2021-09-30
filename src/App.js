@@ -30,7 +30,7 @@ const errorLink = onError(({ graphqlErrors, networkErrors }) => {
 
 const link = from([
   errorLink,
-  new HttpLink({ uri: "http://localhost:3001/graphql" }),
+  new HttpLink({ uri: "https://ssle.herokuapp.com/graphql" }),
   // new HttpLink({ uri: "http://192.168.2.200:3001/graphql" }),
 ]);
 
