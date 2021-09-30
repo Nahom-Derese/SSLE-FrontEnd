@@ -3,9 +3,8 @@ import logo from "./assets/books-stack-of-three.svg";
 import Form from "./Components/Form";
 import Result from "./Components/Results";
 import Footer from "./Components/Footer";
-// import ParallaxComponents from "./Components/ParallaxComponents";
-import Icon from "./assets/active-search.png";
 import ParallaxComponents from "./Components/ParallaxComponents";
+import Icon from "./assets/active-search.png";
 import { ResultProvider } from "./Contexts/ResultContext";
 import { useTransition, animated, config } from "react-spring";
 import { useState } from "react";
@@ -95,13 +94,19 @@ function App() {
                 >
                   <img src={Icon} /> Search
                 </button>
-                <a href="#/"> Official Page </a>
-                <a href="#/"> Contact Me </a>
+                <a href="http://result.neaea.gov.et/"> Official Page </a>
+                <a href="http://t.me/User_125"> Contact Me </a>
               </div>
             </div>
           </nav>
 
           <main className="main-container">
+            <div className="Title">
+              <h2 className="T" contenteditable spellcheck="false">
+                Secondary School Leaving Examination (SSLE) Results for Neway
+                Challenge Academy Students
+              </h2>
+            </div>
             <div className="container">
               {!Toggle_2 && !Toggle_3 ? (
                 <Form
@@ -114,7 +119,7 @@ function App() {
                 <></>
               )}
 
-              {/* <ParallaxComponents /> */}
+              <ParallaxComponents />
 
               {Toggle_2 ? <Result /> : <></>}
               {Toggle_3 ? (

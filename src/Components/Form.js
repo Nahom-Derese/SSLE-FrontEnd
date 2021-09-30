@@ -11,8 +11,8 @@ function Form({ setToggle_2, Toggle_2, Toggle_3, setToggle_3 }) {
 
   const fade = useSpring({
     background: Toggled
-      ? "rgba(85, 21, 202, 0.879)"
-      : "rgba(85, 21, 202, 0.379)",
+      ? "rgba(70, 159, 175, 0.795)"
+      : "rgba(70, 159, 175, 0.395)",
   });
 
   //Apollo Client Stuff

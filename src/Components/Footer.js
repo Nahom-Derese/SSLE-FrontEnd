@@ -40,7 +40,7 @@ function Footer() {
     <div className="Footer">
       <div className="footer-container">
         <div className="Contact-me">
-          <a href="#/">
+          <a href="https://t.me/User_125">
             <img
               className="telegram"
               onMouseEnter={() => {
@@ -56,9 +56,9 @@ function Footer() {
               src={telegram}
               alt="telegram"
             />
-            <animated.span style={animate}>@Nahom-Derese</animated.span>
+            <animated.span style={animate}>@User_125</animated.span>
           </a>
-          <a href="#/">
+          <a href="https://github.com/Nahom-Derese">
             <img
               className="github"
               onMouseEnter={() => {
@@ -94,7 +94,7 @@ function Footer() {
             />
             <animated.span style={animate_2}>@Nahom-Derese</animated.span>
           </a>
-          <a href="#/">
+          <a href="https://twitter.com/NahomD">
             <img
               className="twitter"
               onMouseEnter={() => {
