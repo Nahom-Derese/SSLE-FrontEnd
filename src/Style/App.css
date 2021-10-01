@@ -396,7 +396,7 @@ body {
 .App .main-container .container .Results-Card {
   position: absolute;
   left: 50%;
-  top: 90%;
+  top: 95%;
   transform: translate(-50%, -50%);
   display: flex;
   flex-direction: column;
