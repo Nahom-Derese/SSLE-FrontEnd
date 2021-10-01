@@ -408,6 +408,7 @@ body {
           backdrop-filter: blur(2px);
   border-radius: 45px;
   width: 656px;
+  margin-top: 20px;
   height: 770px;
   overflow: hidden;
 }
