@@ -34,7 +34,7 @@ function ParallaxComponents() {
 
   return (
     <Fragment>
-      <animated.div className="orb" style={effect4}></animated.div>
+      {/* <animated.div className="orb" style={effect4}></animated.div> */}
       <animated.img className="item" src={Gcap} style={effect}></animated.img>
       <animated.div className="item-1" style={effect}></animated.div>
       <animated.img
