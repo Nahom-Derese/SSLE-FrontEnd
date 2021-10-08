@@ -30,7 +30,6 @@ const errorLink = onError(({ graphqlErrors, networkErrors }) => {
 const link = from([
   errorLink,
   new HttpLink({ uri: "https://ssle.herokuapp.com/graphql" }),
-  // new HttpLink({ uri: "http://192.168.2.200:3001/graphql" }),
 ]);
 
 const client = new ApolloClient({
@@ -102,10 +101,8 @@ function App() {
 
           <main className="main-container">
             <div className="Title">
-              <h2 className="T" contenteditable spellcheck="false">
-                Secondary School Leaving Examination (SSLE) Results for Neway
-                Challenge Academy Students
-              </h2>
+            <h2 class="neon" data-text="U">Secondary<span class="flicker-slow">  S</span>chool  Leaving<span class="flicker-fast">  Ex</span>amination<span class="flicker-slow">  (SSLE)  </span>Resu<span class="flicker-fast">lts  <br />for  </span>Neway
+                Cha<span class="flicker-fast">ll</span>enge  Acad<span class="flicker-slow">emy</span> Students</h2>
             </div>
             <div className="container">
               {!Toggle_2 && !Toggle_3 ? (
