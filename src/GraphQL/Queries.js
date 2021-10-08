@@ -9,6 +9,7 @@ export const LOAD_BY_Reg_NO = gql`
       Stream
       School
       Sex
+      Picture
       Result {
         Biology
         Chemistry
@@ -32,6 +33,7 @@ export const LOAD_BY_NAME = gql`
       Stream
       School
       Sex
+      Picture
       Result {
         Biology
         Chemistry

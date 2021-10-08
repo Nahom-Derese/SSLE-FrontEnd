@@ -1,7 +1,7 @@
 import { React, useState, useContext } from "react";
 import { animated, config, useTransition } from "react-spring";
 import { ResultContext } from "../Contexts/ResultContext";
-import Avatar from "../assets/Avatar.png";
+// import Avatar from "../assets/Avatar.png";
 import Next from "../assets/next.svg";
 import Stats from "./Stats";
 
@@ -39,7 +39,7 @@ function Results() {
       {transitionOut((style, item) =>
         item ? (
           <animated.div className="Card-Container" style={style}>
-            <img src={Avatar} className="avatar" alt="Some Here" />
+            <img src={Data[0].Picture} className="avatar" alt="Some Here" />
             <div className="Details">
               <div className="detail">
                 <span>Name :</span>
