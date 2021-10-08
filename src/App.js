@@ -3,7 +3,7 @@ import logo from "./assets/books-stack-of-three.svg";
 import Form from "./Components/Form";
 import Result from "./Components/Results";
 import Footer from "./Components/Footer";
-import ParallaxComponents from "./Components/ParallaxComponents";
+// import ParallaxComponents from "./Components/ParallaxComponents";
 import Icon from "./assets/active-search.png";
 import { ResultProvider } from "./Contexts/ResultContext";
 import { useTransition, animated, config } from "react-spring";
@@ -119,7 +119,7 @@ function App() {
                 <></>
               )}
 
-              <ParallaxComponents />
+              {/* <ParallaxComponents /> */}
 
               {Toggle_2 ? <Result /> : <></>}
               {Toggle_3 ? (
