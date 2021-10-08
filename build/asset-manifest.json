@@ -1,34 +1,31 @@
 {
   "files": {
     "main.css": "/static/css/main.adc25cc4.chunk.css",
-    "main.js": "/static/js/main.5d0b75e7.chunk.js",
-    "main.js.map": "/static/js/main.5d0b75e7.chunk.js.map",
+    "main.js": "/static/js/main.a75ba842.chunk.js",
+    "main.js.map": "/static/js/main.a75ba842.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.89a3238b.js",
     "runtime-main.js.map": "/static/js/runtime-main.89a3238b.js.map",
-    "static/js/2.5cd5890d.chunk.js": "/static/js/2.5cd5890d.chunk.js",
-    "static/js/2.5cd5890d.chunk.js.map": "/static/js/2.5cd5890d.chunk.js.map",
+    "static/js/2.242b6025.chunk.js": "/static/js/2.242b6025.chunk.js",
+    "static/js/2.242b6025.chunk.js.map": "/static/js/2.242b6025.chunk.js.map",
     "static/js/3.cd99c083.chunk.js": "/static/js/3.cd99c083.chunk.js",
     "static/js/3.cd99c083.chunk.js.map": "/static/js/3.cd99c083.chunk.js.map",
     "index.html": "/index.html",
     "static/css/main.adc25cc4.chunk.css.map": "/static/css/main.adc25cc4.chunk.css.map",
-    "static/js/2.5cd5890d.chunk.js.LICENSE.txt": "/static/js/2.5cd5890d.chunk.js.LICENSE.txt",
+    "static/js/2.242b6025.chunk.js.LICENSE.txt": "/static/js/2.242b6025.chunk.js.LICENSE.txt",
     "static/media/Avatar.542c35d7.png": "/static/media/Avatar.542c35d7.png",
     "static/media/App.css": "/static/media/project-3.f874a7e0.jpg",
     "static/media/books-stack-of-three.06e02f99.svg": "/static/media/books-stack-of-three.06e02f99.svg",
     "static/media/discord.119e302c.svg": "/static/media/discord.119e302c.svg",
     "static/media/github.68c33e62.svg": "/static/media/github.68c33e62.svg",
-    "static/media/graduation-cap.573085e8.svg": "/static/media/graduation-cap.573085e8.svg",
-    "static/media/graduation-hat-and-diploma.739d4a89.svg": "/static/media/graduation-hat-and-diploma.739d4a89.svg",
     "static/media/linkedin.fb4211d9.svg": "/static/media/linkedin.fb4211d9.svg",
     "static/media/next.0bbb68d5.svg": "/static/media/next.0bbb68d5.svg",
     "static/media/telegram.17e3cedd.svg": "/static/media/telegram.17e3cedd.svg",
-    "static/media/twitter.101e8132.svg": "/static/media/twitter.101e8132.svg",
-    "static/media/zigzag-line.d8e36a82.svg": "/static/media/zigzag-line.d8e36a82.svg"
+    "static/media/twitter.101e8132.svg": "/static/media/twitter.101e8132.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.89a3238b.js",
-    "static/js/2.5cd5890d.chunk.js",
+    "static/js/2.242b6025.chunk.js",
     "static/css/main.adc25cc4.chunk.css",
-    "static/js/main.5d0b75e7.chunk.js"
+    "static/js/main.a75ba842.chunk.js"
   ]
 }
