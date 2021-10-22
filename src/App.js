@@ -91,7 +91,7 @@ function App() {
                     setToggle_3(false);
                   }}
                 >
-                  <img src={Icon} /> Search
+                  <img src={Icon} alt="Icon" /> Search
                 </button>
                 <a href="http://result.neaea.gov.et/"> Official Page </a>
                 <a href="http://t.me/User_125"> Contact Me </a>
@@ -101,8 +101,10 @@ function App() {
 
           <main className="main-container">
             <div className="Title">
-            <h2 class="neon" data-text="U">Secondary<span class="flicker-slow">  S</span>chool  Leaving<span class="flicker-fast">  Ex</span>amination<span class="flicker-slow">  (SSLE)  </span>Resu<span class="flicker-fast">lts  <br />for  </span>Neway
-                Cha<span class="flicker-fast">ll</span>enge  Acad<span class="flicker-slow">emy</span> Students</h2>
+              <h2 class="sign__word">
+                Secondary School Leaving Examination (SSLE) Results for Neway
+                Challenge Academy Students
+              </h2>
             </div>
             <div className="container">
               {!Toggle_2 && !Toggle_3 ? (

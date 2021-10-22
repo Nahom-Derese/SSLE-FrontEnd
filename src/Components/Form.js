@@ -7,6 +7,7 @@ import { ResultContext } from "../Contexts/ResultContext";
 function Form({ setToggle_2, Toggle_2, Toggle_3, setToggle_3 }) {
   //React-Spring Stuff Here
   const [Toggled, setToggled] = useState(false);
+  // eslint-disable-next-line
   const [Data, setData] = useContext(ResultContext);
 
   const fade = useSpring({

@@ -1,13 +1,13 @@
 import { React, useState, useContext } from "react";
 import { animated, config, useTransition } from "react-spring";
 import { ResultContext } from "../Contexts/ResultContext";
-// import Avatar from "../assets/Avatar.png";
 import Next from "../assets/next.svg";
 import Stats from "./Stats";
 
 function Results() {
   const [items, setItems] = useState([]);
   const [items2, setItems2] = useState([{}]);
+  // eslint-disable-next-line
   const [Data, setData] = useContext(ResultContext);
 
   const transitionIn = useTransition(items, {

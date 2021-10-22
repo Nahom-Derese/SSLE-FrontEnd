@@ -1,10 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Exo+2:200i);
-:root {
-  /* Set neon color */
-  --neon-text-color: #f40;
-  --neon-border-color: #08f;
-}
-
+@import url("https://fonts.googleapis.com/css2?family=Vibur&display=swap");
 body {
   background-color: #e0c17d;
   background-image: url("../assets/double-bubble-dark.png");
@@ -212,49 +206,15 @@ body {
   width: 50%;
   padding: 10px;
   margin-top: 45px;
-  margin-left: 145px;
+  /*-- Sign Styles --*/
 }
 
-.App .main-container .Title .neon {
+.App .main-container .Title .sign__word {
+  font-family: "Vibur", cursive;
+  font-size: 1.9rem;
   text-align: center;
-  font-family: 'Monoton', cursive;
-  color: #d5f0ff;
-  position: absolute;
-  font-weight: 300;
-  text-shadow: 1px 0px 4px #d5ebff, 2px 0px 4px #d5eeff, 3px 0px 4px #d5f2ff, 2px 0px 3px #372cd4, 2px 3px 15px #502cd4, 2px 0px 15px, 5px 0px 125px, 20px 0vw 200px #2c2fd4,40px 0vw 200px #2f2cd4;
-}
-
-.App .main-container .Title span {
-  font-family: 'Monoton', cursive;
-  color: #d5f0ff;
-}
-
-.App .main-container .Title .flicker-slow {
-  -webkit-animation: flicker 3s linear infinite;
-          animation: flicker 3s linear infinite;
-}
-
-.App .main-container .Title .flicker-fast {
-  -webkit-animation: flicker 1s linear infinite;
-          animation: flicker 1s linear infinite;
-}
-
-@-webkit-keyframes flicker {
-  0%, 19.999%, 22%, 62.999%, 64%, 64.999%, 70%, 100% {
-    opacity: .99;
-  }
-  20%, 21.999%, 63%, 63.999%, 65%, 69.999% {
-    opacity: 0.4;
-  }
-}
-
-@keyframes flicker {
-  0%, 19.999%, 22%, 62.999%, 64%, 64.999%, 70%, 100% {
-    opacity: .99;
-  }
-  20%, 21.999%, 63%, 63.999%, 65%, 69.999% {
-    opacity: 0.4;
-  }
+  line-height: 1.2;
+  color: #c6e2ff;
 }
 
 .App .main-container .container #demo {
